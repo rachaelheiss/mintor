@@ -95,8 +95,8 @@ def processByFile(gID,sID,tID,leftacc,rightacc,leftgyro,rightgyro):
 
     dataWrite(str(sID) + "-" + str(tID) + "acc-left-labeled.csv",l_a)
     dataWrite(str(sID) + "-" + str(tID) + "gyro-left-labeled.csv",l_g)
-    dataWrite(str(sID) + "-" + str(tID) + "acc-right-labeled.csv",r_a)
-    dataWrite(str(sID) + "-" + str(tID) + "gyro-right-labeled.csv",r_g)
+    # dataWrite(str(sID) + "-" + str(tID) + "acc-right-labeled.csv",r_a)
+    # dataWrite(str(sID) + "-" + str(tID) + "gyro-right-labeled.csv",r_g)
 
 
 '''
